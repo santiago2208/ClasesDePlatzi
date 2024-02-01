@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    display: grid;
+    grid-auto-columns: 150px;
+    grid-template-rows: 150px 150px 150px;
+    background-color: lightsalmon;
+    gap: 20px;
+    grid-auto-flow: column;
+}
+
+.hijos{
+    font-size: 40px;
+    background-color: lightblue;
+    border: solid 1px black;
+    flex-wrap: wrap;
+}

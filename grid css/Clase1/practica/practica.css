@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    grid-auto-rows: 10rem;
+    background-color: lightsalmon;
+    gap: 10px;
+    /* grid-auto-flow: column; */
+}
+
+.hijos{
+    font-size: 40px;
+    background-color: lightblue;
+    border: solid 1px black;
+    flex-wrap: wrap;
+}

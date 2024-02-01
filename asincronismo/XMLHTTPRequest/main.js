@@ -1,0 +1,1 @@
+const XMLHttpRequest = require('xmlhttprequest');
