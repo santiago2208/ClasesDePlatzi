@@ -1,0 +1,20 @@
+.Boton_Azul{
+    border-radius: 5px;
+    background-color: #71C1EE;
+    text-align: center;
+    padding: 3px 15px;
+}
+
+.Boton_Azul:hover{
+    box-shadow: 0 0 5px 1px #71c0ee;
+}
+
+.Boton_Azul:active{
+    box-shadow: none;
+}
+
+.Separador{
+    border-bottom: 1px solid #000000;
+    box-shadow: none;
+    margin: 10px 0;
+}

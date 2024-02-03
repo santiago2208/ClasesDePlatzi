@@ -1,0 +1,106 @@
+.FondoModal{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.371);
+    top: 0;
+
+}
+
+.ModalLogin{
+    margin: auto;
+    margin-top: 30%;
+    background-color: white;
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.ModalLogin_Header{
+    border-radius: 5px;
+    height: 50px;
+    background-color: #D9D9D9;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.ModalLogin_Title{
+    font-size: 2.0rem;
+}
+
+.ModalLogin_IconClose{
+    height: 40px;
+    cursor: pointer;
+}
+
+.ModalLogin_Main{
+    padding: 35px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ModalLogin_input{
+    width: 300px;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 5PX;
+    border: 1px solid black;
+}
+
+.ModalLogin_BtnLogin{
+    font-size: 2.0rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid black 1px;
+    cursor: pointer;
+}
+
+.SeparadorLogin{
+    margin: 10px 0;
+    width: 90%;
+}
+
+.SeparadorLogin_Text{
+    font-size: 1.5rem;
+}
+
+.SeparadorLogin_Linea{
+    margin: 3px 0;
+}
+
+.BtnLogGoogle{
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px 8px;
+}
+
+.BtnLogGoogle_img{
+    height: 25px;
+}
+
+.BtnLogGoogle_Text{
+    font-size: 2.0rem;
+}
+
+@media (min-width: 600px) {
+
+    .ModalLogin{
+        margin-top: 15%;
+        max-width: 570px;
+    }
+
+    .ModalLogin_input{
+        width: 60%;
+    }
+
+}
+
