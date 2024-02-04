@@ -1,5 +1,5 @@
 .nav {
-    width: 100vw;
+    width: 100%;
     background-color: #D9D9D9;
 }
 
@@ -26,6 +26,7 @@
     width: 100vw;
     height: 100vh;
     background-color: #14131353;
+    z-index: 1;
 }
 
 

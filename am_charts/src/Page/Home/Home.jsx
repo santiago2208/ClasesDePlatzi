@@ -2,18 +2,53 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import  Autos  from '../../json/Autos'
 
+import CompGrafBarras from '../../components/Graficos.jsx/Amchard1/Chart'
+import CompGrafTorta from '../../components/Graficos.jsx/Amchard2/Chart'
+import CompTablaAutos from '../../components/Graficos.jsx/Tabla/Tabla'
+
+
 import'./Home.css'
 
-
+import IconGrafBarras from '../../assets/Iconos/IconGrafBarras.png'
+import IconGrafTorta from '../../assets/Iconos/IconGrafTorta.png'
+import IconTabla from '../../assets/Iconos/IconTabla.png'
 
 
 
 
 function Home() {
 
+  const [GrafBarras, setGrafBarras] = useState(true);
+  const [GrafTorta, setGrafTorta] = useState(false);
+  const [TablaAutos, setTablaAutos] = useState(false);
+
+  const [Registros, setRegistros] = useState(false);
+
+  const ShowGrafBarras = () => {
+    setGrafBarras(true);
+    setGrafTorta(false);
+    setTablaAutos(false);
+  };
+  
+  const ShowGrafTorta = () => {
+    setGrafBarras(false);
+    setGrafTorta(true);
+    setTablaAutos(false);
+  };
+  
+  const ShowTablaAutos = () => {
+    setGrafBarras(false);
+    setGrafTorta(false);
+    setTablaAutos(true);
+  };
+
+  const ShowRegistros = () => {
+    setRegistros(!Registros)
+  };
+
   // Todos los carros → → → → → → → → → → → → → → → → → → → → → → → →
   useEffect(() => {
-    console.log('Objeto Autos:', Autos);
+    // console.log('Objeto Autos:', Autos);
 
     // Mapear los cards y almacenarlos en un array
     const cardsArray = Autos.map((auto) => {
@@ -21,7 +56,7 @@ function Home() {
     });
 
     // Mostrar el array de cards en la consola
-    console.log('Array de Cards:', cardsArray);
+    // console.log('Array de Cards:', cardsArray);
   }, []);
 
 
@@ -49,27 +84,7 @@ function Home() {
 
 
 
-  // Contar el total de carros por marca y obtener las 5 marcas con más autos → → → → → → → →
-  const obtenerCincoMarcasConMasAutos = () => {
-    const conteoPorMarca = {};
-
-    Autos.forEach((auto) => {
-      if (conteoPorMarca[auto.Card]) {
-        conteoPorMarca[auto.Card]++;
-      } else {
-        conteoPorMarca[auto.Card] = 1;
-      }
-    });
-
-    // Convertir el objeto en un array y ordenarlo por cantidad de autos
-    const marcasOrdenadas = Object.entries(conteoPorMarca)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 5);
-
-    return marcasOrdenadas;
-  };
-
-  const cincoMarcasConMasAutos = obtenerCincoMarcasConMasAutos();
+  
 
 
   // marca con mas autos → → → → → → → → → → → → → → → → → → → → → → → → → → → →
@@ -99,46 +114,101 @@ function Home() {
 
 
   return (
-    <main>
+    <main className='Main'>
+    
+
+
+    <section className='SecGraficos'>
+      <h2 className='SecGraficos_subTitle'>Contexto de los grafico</h2>
+      <p className='SecGraficos_Text'>Los siguientes graficos te permitiran ver de 500 registros <br /> las 5 marcas de autos con mas usuarios</p>
+
+      <div className='Graficos'>
+        <div className='Graficos__header'>
+          <img onClick={ShowGrafBarras} 
+          className={GrafBarras ? 'Graficos__IconBtn Graficos__IconBtnTrue': 'Graficos__IconBtn'} 
+          src={IconGrafBarras} 
+          alt="Icono de grafico de barras" />
+
+          <img onClick={ShowGrafTorta} 
+          className={GrafTorta ? 'Graficos__IconBtn Graficos__IconBtnTrue':'Graficos__IconBtn'} 
+          src={IconGrafTorta} 
+          alt="Icono de grafico de torta" />
+
+          <img onClick={ShowTablaAutos} 
+          className={TablaAutos ? 'Graficos__IconBtn Graficos__IconBtnTrue':'Graficos__IconBtn'} 
+          src={IconTabla} 
+          alt="Icono tabla de datos" />
+        </div>
+
+        {GrafBarras && (<>
+          <CompGrafBarras/>
+        </>)}
+
+        {GrafTorta && (<>
+          <CompGrafTorta/>
+        </>)}
+
+        {TablaAutos && (<>
+          <CompTablaAutos/>
+        </>)}
+
+
+
+      </div>
+    </section>
+
+
+
+
+
        <h1>Total de Registros: {totalRegistros}</h1>
 
-       <hr />
 
        {/* Mostrar la marca con más autos en un h1 */}
       <h1>{`Marca con más Autos: ${marcaConMasAutos} (${totalAutos /*+ (totalAutos/3)*/} autos)`}</h1>
 
-      <hr />
+<br />
 
-      {/* Mostrar las 5 marcas con más autos en un div */}
-      <h1>
-        <h1>5 marcas con mas autos</h1>
-        {cincoMarcasConMasAutos.map(([marca, total]) => (
-          <div key={marca}>
-            <h3>{`Marca: ${marca}`}</h3>
-            <h3>{`Total de Autos: ${total}`}</h3>
-            <br />
-          </div>
-        ))}
-      </h1>
+          <hr />
 
-       <hr />
 
        {/* Mostrar el total de carros por marca en etiquetas h3 */}
-      <h2>
-        {Object.entries(totalCarrosPorMarca).map(([marca, total]) => (
-          <h3 key={marca}>{`Total de Carros ${marca}: ${total}`}</h3>
-        ))}
-      </h2>
 
-      <hr />
-      <br />
-      <br />
-      {/* Mostrar cada carro en etiquetas h2 */}
-      <div>
-        {Autos.map((auto) => (
-          <h2 key={auto.id}>{auto.Card}</h2>
-        ))}
-      </div>
+          <h1>Total de usuarios por marca</h1>
+          <br />
+        <div className='TotalUsuariosPorMarca'>
+          {Object.entries(totalCarrosPorMarca).map(([marca, total]) => (
+            <span className='TotalUsuariosPorMarca__text' key={marca}>{`${marca}: ${total}`}</span>
+          ))}
+        </div>
+
+
+          <button onClick={ShowRegistros}>Mostrar todos los registros</button>
+
+      {Registros && (<>
+        <table className='Table'>
+          <thead className='thead'>
+            <tr>
+              <th className='th'>id</th>
+              <th className='th'>Name</th>
+              <th className='th'>Card</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Autos.map((auto) => (
+            <tr key={auto.id}>
+              <td className='td'>{auto.id}</td>
+              <td className='td'>{auto.first_name}</td>
+              <td className='td'>{auto.Card}</td>
+            </tr>
+            ))}
+          </tbody>
+        </table>
+      </>)}
+
+
+      <br /><br /><br /><br />
+      
     </main>
   )
 }
