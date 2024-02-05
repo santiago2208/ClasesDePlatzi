@@ -9,6 +9,8 @@ const GraficoDeVentas = () => {
 
 
     const [gananciasPorDia, setGananciasPorDia] = useState([]); 
+    const [useEffectCompleted, setUseEffectCompleted] = useState(false);
+
 
 
     useEffect(() => {
@@ -33,6 +35,7 @@ const GraficoDeVentas = () => {
   
       setGananciasPorDia(gananciasPorDiaArray);
       console.log(gananciasPorDiaArray)
+      setUseEffectCompleted(true);
     }, []);
 
 
@@ -40,20 +43,16 @@ const GraficoDeVentas = () => {
 
 
   useLayoutEffect(() => {
-    
+    if (useEffectCompleted) {
     
     var root = am5.Root.new("chartdiv");
 
-    // Set themes
-    // https://www.amcharts.com/docs/v5/concepts/themes/
     root.setThemes([
       am5themes_Animated.new(root)
     ]);
     
  
-    
-    // Create chart
-    // https://www.amcharts.com/docs/v5/charts/xy-chart/
+
     var chart = root.container.children.push(
       am5xy.XYChart.new(root, {
         panX: true,
@@ -65,8 +64,7 @@ const GraficoDeVentas = () => {
     
     var easing = am5.ease.linear;
     
-    // Create axes
-    // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+
     var xAxis = chart.xAxes.push(
       am5xy.GaplessDateAxis.new(root, {
         maxDeviation: 0.1,
@@ -89,10 +87,6 @@ const GraficoDeVentas = () => {
       })
     );
 
-   
-    
-    // Add series
-    // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
     var series = chart.series.push(
       am5xy.LineSeries.new(root, {
         minBulletDistance: 10,
@@ -127,27 +121,28 @@ const GraficoDeVentas = () => {
       });
     });
     
-    // Add cursor
-    // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
+
     var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {
       xAxis: xAxis
     }));
     cursor.lineY.set("visible", false);
     
-    // add scrollbar
+
     chart.set("scrollbarX", am5.Scrollbar.new(root, {
       orientation: "horizontal"
     }));
     
-    // Make stuff animate on load
-    // https://www.amcharts.com/docs/v5/concepts/animations/
+
     series.appear(1000, 100);
     chart.appear(1000, 100);
 
+    
+
     return () => {
       root.dispose();
+      
     };
-}, []);
+}}, [useEffectCompleted]);
 
   return (
     // Tu componente y su lógica aquí
@@ -155,6 +150,8 @@ const GraficoDeVentas = () => {
       <hr />
 
       <div id="chartdiv" style={{ width: "100%", height: "500px" }}></div>
+
+   
 
     </div>
   );
