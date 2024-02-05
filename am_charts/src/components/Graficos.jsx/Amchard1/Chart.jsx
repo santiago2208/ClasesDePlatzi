@@ -74,14 +74,21 @@ function Chart(props) {
           valueYField: "total", // Cambiar a "total" en lugar de "value1"
           categoryXField: "marca", // Cambiar a "marca" en lugar de "category"
           tooltip: am5.Tooltip.new(root, {
-            themeTags: ["axis"]
+            themeTags: ["axis "]
           })
         })
       );
       series.data.setAll(fivecards);
 
-      series.get("tooltip").label.set("text", "[bold]{categoryX}: {valueY}");
+      series.get("tooltip").label.set("text", "[bold] {categoryX}: {valueY} usuarios");
         series.data.setAll(fivecards);
+
+
+
+        am5.Label.new(root, {
+          text: "Texto grande",
+          fontSize: 30,
+      });
 
 
       // Add cursor

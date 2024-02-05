@@ -1,21 +1,17 @@
 import React, { useState, useEffect, useRef  } from 'react'
 
 import { Link } from 'react-router-dom'
-import  Autos  from '../../json/Autos'
 
 import'./Home.css'
 
-import Chart from './Chart';
+import GraficoDeVentas from '../../components/Graficos.jsx/GraficoDeVentas/GraficoDeVentas'
 
 
 
 
 
-
-function Amchard1() {
+function PgVentas() {
   
-
-
 
   return (
     <main>
@@ -23,7 +19,7 @@ function Amchard1() {
 
        <hr />
 
-       <Chart />
+        <GraficoDeVentas></GraficoDeVentas>
 
       {/* Puedes agregar el contenedor para el gráfico de barras aquí */}
 
@@ -31,4 +27,4 @@ function Amchard1() {
   )
 }
 
-export default Amchard1
+export default PgVentas
