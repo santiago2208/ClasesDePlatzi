@@ -51,9 +51,9 @@ function Nav() {
 
         <div className='nav_contLink'>
 
-          <Link to={'/PgVentas'} className='nav_Link'>Grafico de barras</Link>
+          <Link to={'/PgVentas'} className='nav_Link'>Grafico de Ventas</Link>
           
-          <Link to={'/Amchard2'} className='nav_Link'>Grafico de torta</Link>
+          <Link to={'/PgPruebas'} className='nav_Link'>Graficos de prueba</Link>
 
           <Link className='nav_Link'>Enlace3</Link>
 

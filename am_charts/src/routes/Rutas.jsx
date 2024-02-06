@@ -5,6 +5,7 @@ import PgVentas from '../Page/PgVentas/PgVentas'
 import Amchard2 from '../Page/Amchard2/Amchard2'
 import Home from '../Page/Home/Home'
 import Categoria from '../Page/Categoria/Categoria'
+import PgPruebas from '../Page/PgPruebas/PgPruebas'
 
 // import Footer from '../components/Footer/Footer'
 
@@ -19,6 +20,7 @@ const Routing = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/PgVentas" element={<PgVentas />} />
+        <Route path="/PgPruebas" element={<PgPruebas />} />
         <Route path="/Amchard2" element={<Amchard2 />} />
         <Route path="/categoria" element={<Categoria />} />
       </Routes>
