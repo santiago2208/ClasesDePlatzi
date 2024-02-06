@@ -55,7 +55,7 @@ function Nav() {
           
           <Link to={'/PgPruebas'} className='nav_Link'>Graficos de prueba</Link>
 
-          <Link className='nav_Link'>Enlace3</Link>
+          <Link to={'PgOtrosGraf'} className='nav_Link'>Graficos en targetas</Link>
 
           <Link className='nav_Link' onClick={OpenModLogin}>Iniciar sesion</Link>
 

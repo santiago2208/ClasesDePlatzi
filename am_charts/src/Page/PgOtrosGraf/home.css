@@ -1,0 +1,19 @@
+.MainGraficos{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    background-color: #e8eeeb;
+   justify-content: space-between;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+
+.MainGraficos_Targeta{
+    width: 32%;
+    height: 300px;
+    min-width: 400px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}

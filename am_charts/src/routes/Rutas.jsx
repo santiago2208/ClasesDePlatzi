@@ -6,6 +6,7 @@ import Amchard2 from '../Page/Amchard2/Amchard2'
 import Home from '../Page/Home/Home'
 import Categoria from '../Page/Categoria/Categoria'
 import PgPruebas from '../Page/PgPruebas/PgPruebas'
+import PgOtrosGraf from '../Page/PgOtrosGraf/PgOtrosGraf'
 
 // import Footer from '../components/Footer/Footer'
 
@@ -19,6 +20,7 @@ const Routing = () => {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/PgOtrosGraf" element={<PgOtrosGraf />} />
         <Route path="/PgVentas" element={<PgVentas />} />
         <Route path="/PgPruebas" element={<PgPruebas />} />
         <Route path="/Amchard2" element={<Amchard2 />} />
