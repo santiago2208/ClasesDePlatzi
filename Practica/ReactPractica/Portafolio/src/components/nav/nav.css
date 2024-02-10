@@ -1,0 +1,144 @@
+.header{
+    background-color: #D3D3D3;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav_ContLogo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 20px;
+    text-decoration: none;
+    color: #000000;
+    border: solid 3px #ffffff00;
+}
+
+
+
+.nav__Logo{
+    width: 100px;
+}
+
+.nav_TextLogo{
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+
+.nav__ContMenu{
+    /* margin: 0 30px;
+    height: 93px;
+    */
+    display: flex;
+    justify-content: end;
+    font-size: 23px; 
+    gap: 10px;
+}
+
+.nav__IconMenuMovil{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nav__IconMenuMovil:hover{
+    background-color: #fff;
+}
+
+.nav__MenuOpcionPC{
+    display: none;
+    color: #000000;
+    text-decoration: none;
+    height: 97px;
+    line-height:90px;
+    border: solid 3px #ffffff00;
+    border-radius: 5px;
+}
+
+.nav__MenuOpcionPC--hover:hover{
+    /* border: solid 3px #3B5C2E; */
+    /* color: #59AB6E; */
+    text-decoration:underline;
+}
+
+.nav__MenuOpcionMovil{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.nav__MenuOpcionMovil:hover{
+    text-decoration: underline;
+}
+
+.ocultar{
+    display: none;
+}
+
+
+@media(min-width:600px){
+    
+
+   
+}
+
+@media(min-width:800px){
+
+    .nav__ContMenu{
+        width: 50%;
+        justify-content: space-evenly;
+
+    }
+    
+    .nav__MenuOpcionPC{
+        display: block;
+        
+    }
+
+    .nav__MenuOpcionMovil{
+        display: none;
+    }
+  
+    .nav__IconMenuMovil{
+        display: none;
+    }
+}
+
+
+
+/*
+Verde Bosque: #228B22
+Gris Oscuro: #A9A9A9
+Verde Claro: #ADFF2F
+Negro: #000000
+Blanco: #FFFFFF
+Gris Claro: #D3D3D3
+*/
+
+
+
+/*❌ descartado por ahora 🚧🚧*/
+/* .pleta{
+    Verde oscuro	#0F2A0E
+Verde medio	#3B5C2E
+Verde claro	#6F8A4F
+Beige	#D9D4B9
+Blanco	#FFFFFF 
+}
+
+*/
