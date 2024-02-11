@@ -35,26 +35,27 @@ const data = [
 ];
 
 
-const GetMain = document.querySelector("#main");
+const GetMain = document.querySelector("#section");
 
 
 
 
 data.forEach((item, index ) => {
 
-    const Oficio = funciones.crearEtiqueta(GetMain, 'p');
-    const vida = funciones.crearEtiqueta(GetMain, 'p');
-    const daño = funciones.crearEtiqueta(GetMain, 'p');
-    const defensa = funciones.crearEtiqueta(GetMain, 'p');
+    const Targeta = funciones.crearEtiqueta(GetMain, 'div');
+    const Oficio = funciones.crearEtiqueta(Targeta, 'p');
+    const vida = funciones.crearEtiqueta(Targeta, 'p');
+    const daño = funciones.crearEtiqueta(Targeta, 'p');
+    const defensa = funciones.crearEtiqueta(Targeta, 'p');
    
     const atributo = (varEtiqueta, atributoItem, atributoValue) =>{
         return funciones.crearTexto(varEtiqueta, `${atributoItem} ${atributoValue}`)
     }
 
-    atributo(Oficio, "Oficio", data[index].oficio);
-    atributo(vida, "Vida", data[index].vida);
-    atributo(daño, "Daño", data[index].daño);
-    atributo(defensa, "Defensa", data[index].defensa);
+    atributo(Oficio, "Oficio:", data[index].oficio);
+    atributo(vida, "Vida:", data[index].vida);
+    atributo(daño, "Daño:", data[index].daño);
+    atributo(defensa, "Defensa:", data[index].defensa);
 
 
     funciones.crearEtiqueta(GetMain, 'br');
