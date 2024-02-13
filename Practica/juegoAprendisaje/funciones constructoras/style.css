@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('./img/panerlizquierdo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    min-height: 8vh;
+    border: solid 2px #875915;
+    background-color: rgba(33, 31, 31, 0.56);
+}
+
+.main{
+    display: flex;
+    min-height: 92vh;
+    align-items: stretch;
+}
+
+
+.sectionLeft{
+    width: 50%;
+    background-color: rgba(60, 60, 60, 0.560);
+    border-right: 1px solid #875915;
+    padding: 15px;
+}
+
+.sectionLeft_title{
+    margin-bottom: 15px;
+    color: #EBB100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div{
+    background-color: rgba(34, 32, 30, 0.870);
+    border: 1px solid #787373;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+    box-shadow: 0px 10px 9px 3px rgba(0, 0, 0, 0.250);
+}
+
+div:hover{
+    box-shadow: 0px 10px 9px 3px rgba(125, 81, 37, 0.25)
+}
+
+div:active{
+    box-shadow: 0px 10px 9px 3px rgba(0, 0, 0, 0.250);
+}
+
+p {
+    color: #FFF0C1;
+}
+
+.sectionRight{
+    width: 100%;
+}
+
+
+
+
+
