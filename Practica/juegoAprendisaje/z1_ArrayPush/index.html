@@ -18,31 +18,34 @@
             
         </section>
 
-        <section class="sectionRight">
+        <section class="sectionRight" id="sectionRight">
             <form class="form" action="#">
                 <h2 class="form_title">Nuevo personaje</h2>
 
-                <select class="inputSelect" name="Oficio" id="Oficio">
-                    <option class="inputOption" value="Espadachin">Espadachin</option>
+                <select class="inputSelect" name="Oficio" id="Oficio" onchange="mostrarAtributos()">
+                    <option class="inputOption" value="" disabled selected>Oficio</option>
+                    <option class="inputOption" value="Espadachín">Espadachín</option>
                     <option class="inputOption" value="Arquero">Arquero</option>
                     <option class="inputOption" value="Mago">Mago</option>
                     <option class="inputOption" value="Asesino">Asesino</option>
                 </select>
 
                 <div class="AtributosNewPerson">
-                    <p>Vida: 100</p>
-                    <p>Daño: 20</p>
-                    <p>Defensa: 10</p>
+                    <p id="NewPersVida">Vida: </p>
+                    <p id="NewPersDaño">Daño: </p>
+                    <p id="NewPersDefensa">Defensa: </p>
                 </div>
 
                 <section class="form_ContButton">
-                    <button class="form_Button">
-                        <p class="form_ButtonText">Agregar</p>
+                    <button class="form_Button" type="submit" onclick="agregarDato()">
+                        <p class="form_ButtonText">Crear</p>
                     </button>
                 </section>
                 
 
             </form>
+
+            
         </section>
 
         
@@ -50,5 +53,9 @@
 
 
 </body>
-<script  src="./Nivel1Optimo.js" type="module"></script>  
+
+<script  src="./Nivel1Optimo.js" type="module"></script> 
+
+
+
 </html>

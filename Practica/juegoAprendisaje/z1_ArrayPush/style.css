@@ -29,7 +29,18 @@ body {
     background-color: rgba(60, 60, 60, 0.560);
     border-right: 1px solid #875915;
     padding: 15px;
+    
+    /*scroll*/
+    overflow-y: auto;
+    max-height: 92vh;
+
+    scrollbar-width: thin; 
+    scrollbar-color:  #78737374 rgba(60, 60, 60, 0.560);
+    
 }
+
+
+
 
 .sectionLeft_title{
     margin-bottom: 15px;
@@ -63,10 +74,12 @@ p {
 }
 
 .sectionRight{
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .form{
@@ -152,6 +165,35 @@ p {
 
 .form_ButtonText:active{
     margin-top: 5px;
+}
+
+.MensajeEmergente{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+
+    animation: aparecerDesplazar 7s ease-out forwards;
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+@keyframes aparecerDesplazar {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    20% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
 }
 
 
