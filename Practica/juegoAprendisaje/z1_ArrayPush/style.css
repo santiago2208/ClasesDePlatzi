@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('./img/panerlizquierdo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    min-height: 8vh;
+    border: solid 2px #875915;
+    background-color: rgba(33, 31, 31, 0.56);
+}
+
+.main{
+    display: flex;
+    min-height: 92vh;
+    align-items: stretch;
+}
+
+
+.sectionLeft{
+    width: 50%;
+    background-color: rgba(60, 60, 60, 0.560);
+    border-right: 1px solid #875915;
+    padding: 15px;
+}
+
+.sectionLeft_title{
+    margin-bottom: 15px;
+    color: #EBB100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+div{
+    background-color: rgba(34, 32, 30, 0.870);
+    border: 1px solid #787373;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+    box-shadow: 0px 10px 9px 3px rgba(0, 0, 0, 0.250);
+}
+
+div:hover{
+    box-shadow: 0px 10px 9px 3px rgba(125, 81, 37, 0.25)
+}
+
+div:active{
+    box-shadow: 0px 10px 9px 3px rgba(0, 0, 0, 0.250);
+}
+
+p {
+    color: #FFF0C1;
+}
+
+.sectionRight{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    background-color: rgba(34, 32, 30, 0.870);
+    border: 1px solid #787373;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 35px;
+    box-shadow: 0px 10px 9px 3px rgba(0, 0, 0, 0.250);
+}
+
+.form_title{
+    margin-bottom: 15px;
+    color: #EBB100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+
+.inputSelect{
+    background-color: rgba(11, 11, 11, 0.54);
+    border: solid 1px #787373;
+    color: #FFF0C1;
+    font-size: 16px;
+    padding: 8px;
+
+    appearance:none;
+    background-image: url('./img/211614_down_b_arrow_icon.svg');
+    background-repeat: no-repeat, repeat;
+	background-size: 25px 25px;
+    background-position: right 5px top 50%;
+
+}
+
+.inputOption{
+    background-color: rgba(34, 32, 30, 0.870);
+}
+
+
+.AtributosNewPerson, .AtributosNewPerson:hover{
+    border: none;
+    box-shadow: none;
+    padding: 6px;
+    background-color: rgba(240, 248, 255, 0);
+    cursor:auto;
+}
+
+.form_ContButton{
+    display: flex;
+    justify-content: center;
+}
+
+.form_Button{
+    background-color: #32281D;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin: 10px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0px 10px 9px 3px rgba(0, 0, 0, 0.250);
+}
+.form_Button:hover{
+    box-shadow: 0px 10px 9px 3px rgba(90, 89, 89, 0.25);
+    border: solid 1px rgba(0, 0, 0, 0.25);
+}
+.form_Button:active{
+    padding-bottom: 0;
+    background-color: #00000000;
+    border: solid 1px #32281d00;
+    box-shadow: none;
+}
+
+.form_ButtonText{
+    background-color: #474039;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+    border-radius: 9px;
+    padding: 10px;    
+}
+
+.form_ButtonText:active{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
