@@ -1,0 +1,15 @@
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\bin\Debug\net8.0\Arrays.exe
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\bin\Debug\net8.0\Arrays.deps.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\bin\Debug\net8.0\Arrays.runtimeconfig.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\bin\Debug\net8.0\Arrays.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\bin\Debug\net8.0\Arrays.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfoInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfo.cs
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\Arrays.csproj.CoreCompileInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\Arrays.sourcelink.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\Arrays.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\refint\Arrays.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\Arrays.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\Arrays\Arrays\obj\Debug\net8.0\ref\Arrays.dll
