@@ -1,0 +1,29 @@
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.exe
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.deps.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.runtimeconfig.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.AssemblyInfoInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.AssemblyInfo.cs
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.csproj.CoreCompileInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.sourcelink.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\refint\TiposRegistroYEstructura.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.genruntimeconfig.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\ref\TiposRegistroYEstructura.dll
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.exe
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.deps.json
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.runtimeconfig.json
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.dll
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\bin\Debug\net8.0\TiposRegistroYEstructura.pdb
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.AssemblyInfoInputs.cache
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.AssemblyInfo.cs
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.csproj.CoreCompileInputs.cache
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.dll
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\refint\TiposRegistroYEstructura.dll
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.pdb
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\TiposRegistroYEstructura.genruntimeconfig.cache
+D:\Escritorio\respaldo\TiposRegistroYEstructura\TiposRegistroYEstructura\obj\Debug\net8.0\ref\TiposRegistroYEstructura.dll

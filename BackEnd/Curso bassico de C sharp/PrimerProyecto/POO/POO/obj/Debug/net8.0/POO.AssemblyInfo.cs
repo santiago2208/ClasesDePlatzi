@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ObjetosSuperHeroesComplejo")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("POO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f94b0e42f3f5b42951979d3f4b5468ad98442b50")]
-[assembly: System.Reflection.AssemblyProductAttribute("ObjetosSuperHeroesComplejo")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ObjetosSuperHeroesComplejo")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cff6d94fb1e7915cb4606adaa423cb6de45ea225")]
+[assembly: System.Reflection.AssemblyProductAttribute("POO")]
+[assembly: System.Reflection.AssemblyTitleAttribute("POO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
