@@ -1,0 +1,15 @@
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\ModificadoresDeAcceso.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\ModificadoresDeAcceso.AssemblyInfoInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\ModificadoresDeAcceso.AssemblyInfo.cs
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\ModificadoresDeAcceso.csproj.CoreCompileInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\ModificadoresDeAcceso.sourcelink.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\bin\Debug\net8.0\ModificadoresDeAcceso.exe
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\bin\Debug\net8.0\ModificadoresDeAcceso.deps.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\bin\Debug\net8.0\ModificadoresDeAcceso.runtimeconfig.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\bin\Debug\net8.0\ModificadoresDeAcceso.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\bin\Debug\net8.0\ModificadoresDeAcceso.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\ModificadoresDeAcceso.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\refint\ModificadoresDeAcceso.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\ModificadoresDeAcceso.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\ModificadoresDeAcceso.genruntimeconfig.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ModificadoresDeAcceso\ModificadoresDeAcceso\obj\Debug\net8.0\ref\ModificadoresDeAcceso.dll

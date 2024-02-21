@@ -1,0 +1,15 @@
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\bin\Debug\net8.0\HellowWord.exe
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\bin\Debug\net8.0\HellowWord.deps.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\bin\Debug\net8.0\HellowWord.runtimeconfig.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\bin\Debug\net8.0\HellowWord.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\bin\Debug\net8.0\HellowWord.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\HellowWord.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\HellowWord.AssemblyInfoInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\HellowWord.AssemblyInfo.cs
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\HellowWord.csproj.CoreCompileInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\HellowWord.sourcelink.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\HellowWord.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\refint\HellowWord.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\HellowWord.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\HellowWord.genruntimeconfig.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\HellowWord\HellowWord\obj\Debug\net8.0\ref\HellowWord.dll

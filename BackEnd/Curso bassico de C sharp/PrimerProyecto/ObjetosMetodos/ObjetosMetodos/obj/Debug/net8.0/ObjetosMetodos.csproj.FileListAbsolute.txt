@@ -1,0 +1,15 @@
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\bin\Debug\net8.0\ObjetosMetodos.exe
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\bin\Debug\net8.0\ObjetosMetodos.deps.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\bin\Debug\net8.0\ObjetosMetodos.runtimeconfig.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\bin\Debug\net8.0\ObjetosMetodos.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\bin\Debug\net8.0\ObjetosMetodos.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\ObjetosMetodos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\ObjetosMetodos.AssemblyInfoInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\ObjetosMetodos.AssemblyInfo.cs
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\ObjetosMetodos.csproj.CoreCompileInputs.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\ObjetosMetodos.sourcelink.json
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\ObjetosMetodos.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\refint\ObjetosMetodos.dll
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\ObjetosMetodos.pdb
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\ObjetosMetodos.genruntimeconfig.cache
+D:\Archivo compartido\folder santiago\clasesPlatzi\BackEnd\Curso bassico de C sharp\PrimerProyecto\ObjetosMetodos\ObjetosMetodos\obj\Debug\net8.0\ref\ObjetosMetodos.dll
