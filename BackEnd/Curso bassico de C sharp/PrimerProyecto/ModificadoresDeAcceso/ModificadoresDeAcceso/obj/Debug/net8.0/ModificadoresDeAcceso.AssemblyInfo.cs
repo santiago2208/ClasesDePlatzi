@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModificadoresDeAcceso")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b412e32a9d7d3de25f14cc1fa3f1e0266cb1a2b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+741422f3e83e90ede0cccc6df81b87d6d2484c4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModificadoresDeAcceso")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModificadoresDeAcceso")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
