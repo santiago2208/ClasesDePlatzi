@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModificadoresDeAcceso")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbc90e8f722dfc946fb8b9dd4103a6949c070c21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+898f3c525144aca541f7d3514846caf686e80b83")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModificadoresDeAcceso")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModificadoresDeAcceso")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

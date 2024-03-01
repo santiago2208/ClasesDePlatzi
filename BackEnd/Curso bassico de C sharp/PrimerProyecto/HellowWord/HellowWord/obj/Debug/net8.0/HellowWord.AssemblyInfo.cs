@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HellowWord")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aad16da2c8c16f6d31bf46f57fbe2eb16784162a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+898f3c525144aca541f7d3514846caf686e80b83")]
 [assembly: System.Reflection.AssemblyProductAttribute("HellowWord")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HellowWord")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
