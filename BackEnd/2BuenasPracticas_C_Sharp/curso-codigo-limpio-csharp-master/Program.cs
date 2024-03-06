@@ -5,11 +5,11 @@ namespace ToDo
 {
     internal class Program
     {
-        public static List<string> TaskList { get; set; }
+        public static List<string> TaskList { get; set; } = TaskList = new List<string>();
 
         static void Main(string[] args)
         {
-            TaskList = new List<string>();
+            
             int MenuSelected = 0;
             do
             {
@@ -65,7 +65,7 @@ namespace ToDo
                     {
                         string task = TaskList[RemoveTask];
                         TaskList.RemoveAt(RemoveTask);
-                        Console.WriteLine("Tarea " + task + " eliminada");
+                        Console.WriteLine( $"Tarea {task} eliminada");  
                     }
                 }  
             }
@@ -105,7 +105,7 @@ namespace ToDo
         public static void ShowTaskList () {
             Console.WriteLine("----------------------------------------");
             var indexTask=1;
-            TaskList.ForEach(p=> Console.WriteLine(indexTask++ + ". " + p)); 
+            TaskList.ForEach(p=> Console.WriteLine($"{indexTask++}. {p}")); 
             Console.WriteLine("----------------------------------------");
         }
     }
