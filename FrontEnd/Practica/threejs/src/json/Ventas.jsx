@@ -1,0 +1,1205 @@
+const Ventas = 
+[
+    {
+        "id": 1,
+        "producto": "Producto7",
+        "precio": 35.2,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 2,
+        "producto": "Producto4",
+        "precio": 17,
+        "fecha": "2024-01-04"
+    },
+    {
+        "id": 3,
+        "producto": "Producto8",
+        "precio": 49.44,
+        "fecha": "2024-01-24"
+    },
+    {
+        "id": 4,
+        "producto": "Producto2",
+        "precio": 20.18,
+        "fecha": "2024-01-08"
+    },
+    {
+        "id": 5,
+        "producto": "Producto2",
+        "precio": 43.44,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 6,
+        "producto": "Producto5",
+        "precio": 45.41,
+        "fecha": "2024-01-08"
+    },
+    {
+        "id": 7,
+        "producto": "Producto1",
+        "precio": 60.9,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 8,
+        "producto": "Producto8",
+        "precio": 1.29,
+        "fecha": "2024-01-20"
+    },
+    {
+        "id": 9,
+        "producto": "Producto4",
+        "precio": 2.16,
+        "fecha": "2024-01-17"
+    },
+    {
+        "id": 10,
+        "producto": "Producto2",
+        "precio": 18.75,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 11,
+        "producto": "Producto1",
+        "precio": 44.89,
+        "fecha": "2024-01-06"
+    },
+    {
+        "id": 12,
+        "producto": "Producto2",
+        "precio": 26.59,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 13,
+        "producto": "Producto3",
+        "precio": 43.31,
+        "fecha": "2024-01-27"
+    },
+    {
+        "id": 14,
+        "producto": "Producto3",
+        "precio": 53.48,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 15,
+        "producto": "Producto5",
+        "precio": 11.63,
+        "fecha": "2024-01-03"
+    },
+    {
+        "id": 16,
+        "producto": "Producto1",
+        "precio": 57.13,
+        "fecha": "2024-01-14"
+    },
+    {
+        "id": 17,
+        "producto": "Producto8",
+        "precio": 65.54,
+        "fecha": "2024-01-08"
+    },
+    {
+        "id": 18,
+        "producto": "Producto7",
+        "precio": 18.22,
+        "fecha": "2024-01-05"
+    },
+    {
+        "id": 19,
+        "producto": "Producto6",
+        "precio": 3.64,
+        "fecha": "2024-01-27"
+    },
+    {
+        "id": 20,
+        "producto": "Producto8",
+        "precio": 4.13,
+        "fecha": "2024-01-02"
+    },
+    {
+        "id": 21,
+        "producto": "Producto3",
+        "precio": 26.55,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 22,
+        "producto": "Producto6",
+        "precio": 8.98,
+        "fecha": "2024-01-07"
+    },
+    {
+        "id": 23,
+        "producto": "Producto2",
+        "precio": 28.34,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 24,
+        "producto": "Producto8",
+        "precio": 52.75,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 25,
+        "producto": "Producto3",
+        "precio": 28.34,
+        "fecha": "2024-01-27"
+    },
+    {
+        "id": 26,
+        "producto": "Producto6",
+        "precio": 12.5,
+        "fecha": "2024-01-01"
+    },
+    {
+        "id": 27,
+        "producto": "Producto1",
+        "precio": 21.45,
+        "fecha": "2024-01-17"
+    },
+    {
+        "id": 28,
+        "producto": "Producto2",
+        "precio": 43.59,
+        "fecha": "2024-01-19"
+    },
+    {
+        "id": 29,
+        "producto": "Producto1",
+        "precio": 54.99,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 30,
+        "producto": "Producto6",
+        "precio": 10.43,
+        "fecha": "2024-01-01"
+    },
+    {
+        "id": 31,
+        "producto": "Producto7",
+        "precio": 54.54,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 32,
+        "producto": "Producto5",
+        "precio": 63.79,
+        "fecha": "2024-01-07"
+    },
+    {
+        "id": 33,
+        "producto": "Producto3",
+        "precio": 48.97,
+        "fecha": "2024-01-20"
+    },
+    {
+        "id": 34,
+        "producto": "Producto4",
+        "precio": 41.63,
+        "fecha": "2024-01-31"
+    },
+    {
+        "id": 35,
+        "producto": "Producto8",
+        "precio": 27.23,
+        "fecha": "2024-01-16"
+    },
+    {
+        "id": 36,
+        "producto": "Producto5",
+        "precio": 36.85,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 37,
+        "producto": "Producto2",
+        "precio": 8.24,
+        "fecha": "2024-01-19"
+    },
+    {
+        "id": 38,
+        "producto": "Producto3",
+        "precio": 19.4,
+        "fecha": "2024-01-01"
+    },
+    {
+        "id": 39,
+        "producto": "Producto5",
+        "precio": 66.03,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 40,
+        "producto": "Producto7",
+        "precio": 68.56,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 41,
+        "producto": "Producto6",
+        "precio": 23.03,
+        "fecha": "2024-01-05"
+    },
+    {
+        "id": 42,
+        "producto": "Producto4",
+        "precio": 28.43,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 43,
+        "producto": "Producto1",
+        "precio": 25.56,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 44,
+        "producto": "Producto4",
+        "precio": 14.33,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 45,
+        "producto": "Producto8",
+        "precio": 7.46,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 46,
+        "producto": "Producto2",
+        "precio": 6.94,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 47,
+        "producto": "Producto3",
+        "precio": 44.75,
+        "fecha": "2024-01-13"
+    },
+    {
+        "id": 48,
+        "producto": "Producto6",
+        "precio": 28.37,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 49,
+        "producto": "Producto6",
+        "precio": 33.48,
+        "fecha": "2024-01-06"
+    },
+    {
+        "id": 50,
+        "producto": "Producto8",
+        "precio": 27.04,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 51,
+        "producto": "Producto7",
+        "precio": 18.22,
+        "fecha": "2024-01-08"
+    },
+    {
+        "id": 52,
+        "producto": "Producto3",
+        "precio": 24.76,
+        "fecha": "2024-01-23"
+    },
+    {
+        "id": 53,
+        "producto": "Producto3",
+        "precio": 46.2,
+        "fecha": "2024-01-16"
+    },
+    {
+        "id": 54,
+        "producto": "Producto5",
+        "precio": 3.55,
+        "fecha": "2024-01-04"
+    },
+    {
+        "id": 55,
+        "producto": "Producto1",
+        "precio": 27.56,
+        "fecha": "2024-01-04"
+    },
+    {
+        "id": 56,
+        "producto": "Producto1",
+        "precio": 58.83,
+        "fecha": "2024-01-17"
+    },
+    {
+        "id": 57,
+        "producto": "Producto7",
+        "precio": 63.05,
+        "fecha": "2024-01-29"
+    },
+    {
+        "id": 58,
+        "producto": "Producto7",
+        "precio": 20.13,
+        "fecha": "2024-01-12"
+    },
+    {
+        "id": 59,
+        "producto": "Producto6",
+        "precio": 25.53,
+        "fecha": "2024-01-23"
+    },
+    {
+        "id": 60,
+        "producto": "Producto8",
+        "precio": 68.88,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 61,
+        "producto": "Producto2",
+        "precio": 34.16,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 62,
+        "producto": "Producto4",
+        "precio": 4.49,
+        "fecha": "2024-01-27"
+    },
+    {
+        "id": 63,
+        "producto": "Producto5",
+        "precio": 46.71,
+        "fecha": "2024-01-20"
+    },
+    {
+        "id": 64,
+        "producto": "Producto7",
+        "precio": 18.02,
+        "fecha": "2024-01-31"
+    },
+    {
+        "id": 65,
+        "producto": "Producto8",
+        "precio": 39.35,
+        "fecha": "2024-01-31"
+    },
+    {
+        "id": 66,
+        "producto": "Producto1",
+        "precio": 50.01,
+        "fecha": "2024-01-29"
+    },
+    {
+        "id": 67,
+        "producto": "Producto3",
+        "precio": 57.73,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 68,
+        "producto": "Producto1",
+        "precio": 48.7,
+        "fecha": "2024-01-20"
+    },
+    {
+        "id": 69,
+        "producto": "Producto1",
+        "precio": 11.84,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 70,
+        "producto": "Producto8",
+        "precio": 28.85,
+        "fecha": "2024-01-05"
+    },
+    {
+        "id": 71,
+        "producto": "Producto7",
+        "precio": 53.96,
+        "fecha": "2024-01-30"
+    },
+    {
+        "id": 72,
+        "producto": "Producto2",
+        "precio": 2.02,
+        "fecha": "2024-01-19"
+    },
+    {
+        "id": 73,
+        "producto": "Producto8",
+        "precio": 29.27,
+        "fecha": "2024-01-10"
+    },
+    {
+        "id": 74,
+        "producto": "Producto3",
+        "precio": 12.86,
+        "fecha": "2024-01-24"
+    },
+    {
+        "id": 75,
+        "producto": "Producto1",
+        "precio": 14.27,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 76,
+        "producto": "Producto6",
+        "precio": 52.98,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 77,
+        "producto": "Producto2",
+        "precio": 67.57,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 78,
+        "producto": "Producto6",
+        "precio": 5.29,
+        "fecha": "2024-01-20"
+    },
+    {
+        "id": 79,
+        "producto": "Producto4",
+        "precio": 51.07,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 80,
+        "producto": "Producto1",
+        "precio": 6.13,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 81,
+        "producto": "Producto6",
+        "precio": 44.87,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 82,
+        "producto": "Producto5",
+        "precio": 44.03,
+        "fecha": "2024-01-08"
+    },
+    {
+        "id": 83,
+        "producto": "Producto4",
+        "precio": 34.14,
+        "fecha": "2024-01-14"
+    },
+    {
+        "id": 84,
+        "producto": "Producto7",
+        "precio": 41.72,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 85,
+        "producto": "Producto5",
+        "precio": 10.08,
+        "fecha": "2024-01-22"
+    },
+    {
+        "id": 86,
+        "producto": "Producto4",
+        "precio": 34.51,
+        "fecha": "2024-01-31"
+    },
+    {
+        "id": 87,
+        "producto": "Producto2",
+        "precio": 20.05,
+        "fecha": "2024-01-30"
+    },
+    {
+        "id": 88,
+        "producto": "Producto3",
+        "precio": 31.01,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 89,
+        "producto": "Producto8",
+        "precio": 2.82,
+        "fecha": "2024-01-16"
+    },
+    {
+        "id": 90,
+        "producto": "Producto4",
+        "precio": 23.34,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 91,
+        "producto": "Producto7",
+        "precio": 25.9,
+        "fecha": "2024-01-24"
+    },
+    {
+        "id": 92,
+        "producto": "Producto5",
+        "precio": 61.34,
+        "fecha": "2024-01-14"
+    },
+    {
+        "id": 93,
+        "producto": "Producto4",
+        "precio": 5.29,
+        "fecha": "2024-01-12"
+    },
+    {
+        "id": 94,
+        "producto": "Producto1",
+        "precio": 34.09,
+        "fecha": "2024-01-03"
+    },
+    {
+        "id": 95,
+        "producto": "Producto4",
+        "precio": 59.57,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 96,
+        "producto": "Producto7",
+        "precio": 8.92,
+        "fecha": "2024-01-09"
+    },
+    {
+        "id": 97,
+        "producto": "Producto8",
+        "precio": 42.23,
+        "fecha": "2024-01-10"
+    },
+    {
+        "id": 98,
+        "producto": "Producto5",
+        "precio": 26.67,
+        "fecha": "2024-01-24"
+    },
+    {
+        "id": 99,
+        "producto": "Producto7",
+        "precio": 21.14,
+        "fecha": "2024-01-27"
+    },
+    {
+        "id": 100,
+        "producto": "Producto7",
+        "precio": 63.25,
+        "fecha": "2024-01-12"
+    },
+    {
+        "id": 101,
+        "producto": "Producto1",
+        "precio": 7.76,
+        "fecha": "2024-01-05"
+    },
+    {
+        "id": 102,
+        "producto": "Producto2",
+        "precio": 67.49,
+        "fecha": "2024-01-02"
+    },
+    {
+        "id": 103,
+        "producto": "Producto6",
+        "precio": 47.31,
+        "fecha": "2024-01-22"
+    },
+    {
+        "id": 104,
+        "producto": "Producto6",
+        "precio": 54.65,
+        "fecha": "2024-01-02"
+    },
+    {
+        "id": 105,
+        "producto": "Producto4",
+        "precio": 60.23,
+        "fecha": "2024-01-23"
+    },
+    {
+        "id": 106,
+        "producto": "Producto4",
+        "precio": 10.59,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 107,
+        "producto": "Producto6",
+        "precio": 14.85,
+        "fecha": "2024-01-06"
+    },
+    {
+        "id": 108,
+        "producto": "Producto4",
+        "precio": 17.09,
+        "fecha": "2024-01-02"
+    },
+    {
+        "id": 109,
+        "producto": "Producto5",
+        "precio": 59.06,
+        "fecha": "2024-01-04"
+    },
+    {
+        "id": 110,
+        "producto": "Producto8",
+        "precio": 4.78,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 111,
+        "producto": "Producto1",
+        "precio": 42.57,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 112,
+        "producto": "Producto5",
+        "precio": 9.36,
+        "fecha": "2024-01-01"
+    },
+    {
+        "id": 113,
+        "producto": "Producto1",
+        "precio": 14.19,
+        "fecha": "2024-01-16"
+    },
+    {
+        "id": 114,
+        "producto": "Producto5",
+        "precio": 58.75,
+        "fecha": "2024-01-27"
+    },
+    {
+        "id": 115,
+        "producto": "Producto1",
+        "precio": 69.78,
+        "fecha": "2024-01-03"
+    },
+    {
+        "id": 116,
+        "producto": "Producto4",
+        "precio": 44.6,
+        "fecha": "2024-01-24"
+    },
+    {
+        "id": 117,
+        "producto": "Producto1",
+        "precio": 20.08,
+        "fecha": "2024-01-04"
+    },
+    {
+        "id": 118,
+        "producto": "Producto1",
+        "precio": 63.57,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 119,
+        "producto": "Producto7",
+        "precio": 42.59,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 120,
+        "producto": "Producto3",
+        "precio": 34.43,
+        "fecha": "2024-01-31"
+    },
+    {
+        "id": 121,
+        "producto": "Producto1",
+        "precio": 51.72,
+        "fecha": "2024-01-14"
+    },
+    {
+        "id": 122,
+        "producto": "Producto3",
+        "precio": 68.06,
+        "fecha": "2024-01-04"
+    },
+    {
+        "id": 123,
+        "producto": "Producto4",
+        "precio": 25.61,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 124,
+        "producto": "Producto8",
+        "precio": 67.39,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 125,
+        "producto": "Producto7",
+        "precio": 45.71,
+        "fecha": "2024-01-16"
+    },
+    {
+        "id": 126,
+        "producto": "Producto5",
+        "precio": 5.64,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 127,
+        "producto": "Producto6",
+        "precio": 13.04,
+        "fecha": "2024-01-06"
+    },
+    {
+        "id": 128,
+        "producto": "Producto3",
+        "precio": 9.19,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 129,
+        "producto": "Producto7",
+        "precio": 21.66,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 130,
+        "producto": "Producto4",
+        "precio": 43.29,
+        "fecha": "2024-01-18"
+    },
+    {
+        "id": 131,
+        "producto": "Producto7",
+        "precio": 69.9,
+        "fecha": "2024-01-05"
+    },
+    {
+        "id": 132,
+        "producto": "Producto5",
+        "precio": 51.91,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 133,
+        "producto": "Producto1",
+        "precio": 13.67,
+        "fecha": "2024-01-16"
+    },
+    {
+        "id": 134,
+        "producto": "Producto3",
+        "precio": 54.97,
+        "fecha": "2024-01-17"
+    },
+    {
+        "id": 135,
+        "producto": "Producto8",
+        "precio": 55.64,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 136,
+        "producto": "Producto2",
+        "precio": 30.02,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 137,
+        "producto": "Producto4",
+        "precio": 18.4,
+        "fecha": "2024-01-24"
+    },
+    {
+        "id": 138,
+        "producto": "Producto1",
+        "precio": 12.3,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 139,
+        "producto": "Producto1",
+        "precio": 37.52,
+        "fecha": "2024-01-12"
+    },
+    {
+        "id": 140,
+        "producto": "Producto7",
+        "precio": 7.84,
+        "fecha": "2024-01-17"
+    },
+    {
+        "id": 141,
+        "producto": "Producto4",
+        "precio": 36.27,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 142,
+        "producto": "Producto8",
+        "precio": 25.77,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 143,
+        "producto": "Producto2",
+        "precio": 11.62,
+        "fecha": "2024-01-27"
+    },
+    {
+        "id": 144,
+        "producto": "Producto4",
+        "precio": 67.83,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 145,
+        "producto": "Producto5",
+        "precio": 14.06,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 146,
+        "producto": "Producto4",
+        "precio": 6.02,
+        "fecha": "2024-01-17"
+    },
+    {
+        "id": 147,
+        "producto": "Producto7",
+        "precio": 35.88,
+        "fecha": "2024-01-19"
+    },
+    {
+        "id": 148,
+        "producto": "Producto3",
+        "precio": 32.03,
+        "fecha": "2024-01-17"
+    },
+    {
+        "id": 149,
+        "producto": "Producto2",
+        "precio": 8.81,
+        "fecha": "2024-01-09"
+    },
+    {
+        "id": 150,
+        "producto": "Producto3",
+        "precio": 5.99,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 151,
+        "producto": "Producto4",
+        "precio": 41.49,
+        "fecha": "2024-01-16"
+    },
+    {
+        "id": 152,
+        "producto": "Producto4",
+        "precio": 55.65,
+        "fecha": "2024-01-31"
+    },
+    {
+        "id": 153,
+        "producto": "Producto5",
+        "precio": 39.23,
+        "fecha": "2024-01-01"
+    },
+    {
+        "id": 154,
+        "producto": "Producto4",
+        "precio": 23.03,
+        "fecha": "2024-01-18"
+    },
+    {
+        "id": 155,
+        "producto": "Producto6",
+        "precio": 59.33,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 156,
+        "producto": "Producto1",
+        "precio": 52.97,
+        "fecha": "2024-01-09"
+    },
+    {
+        "id": 157,
+        "producto": "Producto6",
+        "precio": 14.78,
+        "fecha": "2024-01-24"
+    },
+    {
+        "id": 158,
+        "producto": "Producto6",
+        "precio": 29.63,
+        "fecha": "2024-01-20"
+    },
+    {
+        "id": 159,
+        "producto": "Producto7",
+        "precio": 51.79,
+        "fecha": "2024-01-24"
+    },
+    {
+        "id": 160,
+        "producto": "Producto3",
+        "precio": 14.08,
+        "fecha": "2024-01-04"
+    },
+    {
+        "id": 161,
+        "producto": "Producto4",
+        "precio": 9.38,
+        "fecha": "2024-01-02"
+    },
+    {
+        "id": 162,
+        "producto": "Producto6",
+        "precio": 67.52,
+        "fecha": "2024-01-13"
+    },
+    {
+        "id": 163,
+        "producto": "Producto1",
+        "precio": 5.04,
+        "fecha": "2024-01-04"
+    },
+    {
+        "id": 164,
+        "producto": "Producto5",
+        "precio": 17.98,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 165,
+        "producto": "Producto7",
+        "precio": 25.13,
+        "fecha": "2024-01-30"
+    },
+    {
+        "id": 166,
+        "producto": "Producto1",
+        "precio": 21.9,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 167,
+        "producto": "Producto1",
+        "precio": 66.39,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 168,
+        "producto": "Producto3",
+        "precio": 60.98,
+        "fecha": "2024-01-23"
+    },
+    {
+        "id": 169,
+        "producto": "Producto7",
+        "precio": 31.76,
+        "fecha": "2024-01-09"
+    },
+    {
+        "id": 170,
+        "producto": "Producto4",
+        "precio": 47.85,
+        "fecha": "2024-01-25"
+    },
+    {
+        "id": 171,
+        "producto": "Producto3",
+        "precio": 9.88,
+        "fecha": "2024-01-01"
+    },
+    {
+        "id": 172,
+        "producto": "Producto5",
+        "precio": 29.3,
+        "fecha": "2024-01-20"
+    },
+    {
+        "id": 173,
+        "producto": "Producto8",
+        "precio": 66.69,
+        "fecha": "2024-01-21"
+    },
+    {
+        "id": 174,
+        "producto": "Producto8",
+        "precio": 61.15,
+        "fecha": "2024-01-13"
+    },
+    {
+        "id": 175,
+        "producto": "Producto2",
+        "precio": 62.46,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 176,
+        "producto": "Producto8",
+        "precio": 40.47,
+        "fecha": "2024-01-09"
+    },
+    {
+        "id": 177,
+        "producto": "Producto5",
+        "precio": 64.09,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 178,
+        "producto": "Producto3",
+        "precio": 9.43,
+        "fecha": "2024-01-13"
+    },
+    {
+        "id": 179,
+        "producto": "Producto3",
+        "precio": 43.45,
+        "fecha": "2024-01-31"
+    },
+    {
+        "id": 180,
+        "producto": "Producto6",
+        "precio": 38.24,
+        "fecha": "2024-01-01"
+    },
+    {
+        "id": 181,
+        "producto": "Producto7",
+        "precio": 3.41,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 182,
+        "producto": "Producto6",
+        "precio": 60.48,
+        "fecha": "2024-01-23"
+    },
+    {
+        "id": 183,
+        "producto": "Producto4",
+        "precio": 59.4,
+        "fecha": "2024-01-08"
+    },
+    {
+        "id": 184,
+        "producto": "Producto3",
+        "precio": 54.31,
+        "fecha": "2024-01-04"
+    },
+    {
+        "id": 185,
+        "producto": "Producto2",
+        "precio": 59.22,
+        "fecha": "2024-01-11"
+    },
+    {
+        "id": 186,
+        "producto": "Producto5",
+        "precio": 8.7,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 187,
+        "producto": "Producto1",
+        "precio": 6.5,
+        "fecha": "2024-01-15"
+    },
+    {
+        "id": 188,
+        "producto": "Producto6",
+        "precio": 41.3,
+        "fecha": "2024-01-13"
+    },
+    {
+        "id": 189,
+        "producto": "Producto5",
+        "precio": 66.25,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 190,
+        "producto": "Producto1",
+        "precio": 19.36,
+        "fecha": "2024-01-02"
+    },
+    {
+        "id": 191,
+        "producto": "Producto6",
+        "precio": 51.21,
+        "fecha": "2024-01-10"
+    },
+    {
+        "id": 192,
+        "producto": "Producto5",
+        "precio": 62.81,
+        "fecha": "2024-01-26"
+    },
+    {
+        "id": 193,
+        "producto": "Producto5",
+        "precio": 44.01,
+        "fecha": "2024-01-05"
+    },
+    {
+        "id": 194,
+        "producto": "Producto1",
+        "precio": 26.12,
+        "fecha": "2024-01-27"
+    },
+    {
+        "id": 195,
+        "producto": "Producto2",
+        "precio": 42.27,
+        "fecha": "2024-01-08"
+    },
+    {
+        "id": 196,
+        "producto": "Producto4",
+        "precio": 42.59,
+        "fecha": "2024-01-28"
+    },
+    {
+        "id": 197,
+        "producto": "Producto3",
+        "precio": 47.34,
+        "fecha": "2024-01-20"
+    },
+    {
+        "id": 198,
+        "producto": "Producto5",
+        "precio": 54.22,
+        "fecha": "2024-01-20"
+    },
+    {
+        "id": 199,
+        "producto": "Producto2",
+        "precio": 9.99,
+        "fecha": "2024-01-31"
+    },
+    {
+        "id": 200,
+        "producto": "Producto2",
+        "precio": 24.66,
+        "fecha": "2024-01-24"
+    }
+]
+
+export default Ventas

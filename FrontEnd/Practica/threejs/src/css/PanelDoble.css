@@ -1,0 +1,141 @@
+.BtnPanleIzquierdo{
+    margin: 20px 15px;
+    padding: 0px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.BtnPanleIzquierdo_Text{
+    font-size: 1.8rem;
+}
+
+.BtnPanleIzquierdo_Img{
+    height: 40px;
+}
+
+.FondoOscuro{
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #14131353;
+    z-index: 0;
+}
+
+
+
+/* otro */
+
+.PanelLeft{
+    position: absolute;
+    top: 0;
+    width: 70vw;
+    height: 100vh;
+    background-color: #F4F4F4;
+    box-shadow: 0px 3px 15px 1px black;
+    animation: desplazamientoMenu 0.5s ease-in-out;
+
+    max-width: 310px;
+}
+
+@keyframes desplazamientoMenu {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+.PanelLeft-ocultar{
+    background-color: #14131300;
+    animation: ocultar 0.5s forwards;
+}
+
+@keyframes ocultar {
+    to {
+        display: none;
+    }
+}
+
+.PanelLeft-Cerrar{
+    animation: OcultarMenu 0.5s ease-in-out;
+}
+@keyframes OcultarMenu {
+    100% {
+        transform: translateX(-100%);
+    }
+
+    0% {
+        transform: translateX(0);
+    }
+}
+
+.HeaderPanel{
+    width: auto;
+    margin: 15px 15px;
+    margin-bottom: 20px;
+    padding: 0 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderPanel__Text{
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.HeaderPanel__IconClose{
+    height: 40px;
+}
+
+/* Responsive*/
+
+
+@media (min-width: 800px) {
+
+
+    .BtnPanleIzquierdo{
+        display: none;
+    }
+
+
+    .FondoOscuro{
+        background-color: rgba(0, 0, 0, 0);
+        position: relative;
+    }
+
+
+    .PanelLeft{
+        box-shadow: none;
+        width: 30%;
+        max-width: 280px;
+        animation: none;
+    }
+
+    .PanelLeft-Cerrar{
+        animation: none;
+    }
+
+
+    .HeaderPanel{
+        display: none;
+    }
+
+
+    .mostrar{
+        display: block!important;
+        position: relative;
+    }
+
+
+}
