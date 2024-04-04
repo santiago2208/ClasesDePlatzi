@@ -1,22 +1,20 @@
-# random-str-msg
+# creacionpaquete-santi
 
-Whenever I start a new project, I don't know what to write for the first commit. After doing a â€œgit initâ€ there is technically nothing there...
+Este paquete te permitira mostrar en consola un mensaje aleatorio
 
 ## Install
 
 ```npm
-npm install -g random-str-msg
+npm i creacionpaquete-santi
 ```
 
 # Usage
 
 ```bash
- random-str-msg
+ CreacionPaquete-santi
+ 
+ creacionpaquete-santi
 ```
-
-# Contributing
-
-If someone wants to add or improve something, I invite you to collaborate directly in this repository: [random-str-msg](https://github.com/gndx/random-str-msg)
 
 # License
 
