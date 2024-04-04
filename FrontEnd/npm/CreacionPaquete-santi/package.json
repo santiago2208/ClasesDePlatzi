@@ -1,0 +1,17 @@
+{
+  "name": "creacionpaquete-santi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Santiago Alvarez Porras <santiagoalvarezporras@gmail.com>",
+  "license": "MIT",
+  "homepage": "",
+  "bin": {
+    "CreacionPaquete-santi": "./bin/global.js"
+  },
+  "preferGlobal": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "clases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node"
+  ],
+  "author": "Santiago Alvarez Porras <santiagoalvarezporras@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23",
+    "moment": "^2.30.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
